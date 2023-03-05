@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Watches</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/watches.css">
+	<link href="https://fonts.googleapis.com/css?family=Teko:300,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div id="cart-modal">
+	<h6>X</h6>
+	<p>Are You sure you want to add this item ?</p>
+	<button>Add To Cart</button>
+</div>
+
+<div id="blur">
+	<!-- Navigation Menu for mobile -->
+	<ul id="mobile-nav">
+		<div id="crossbtn"><img src='../images/cross.png'></div>
+		<li><a href='home.html'>HOME</a></li>
+		<li><a href="#">FAKE LINK</a></li>
+		<li><a href="#">FAKE LINK 2</a></li>
+		<li><a href="#">FAKE LINK 3</a></li>
+	</ul>
+
+	<!-- CART MENU -->
+	<div id="cart">
+	<!-- heading -->
+		<div class="heading">
+			<span class="your-cart"><p>Your Cart</p></span>
+			<span class="img"><img src="../images/cross.png"></span>
+		</div>
+		
+		<!-- Buy -->
+		<div class="buy">
+			<p>Total : <span class="total-price">0</span>$</p>
+			<button>Buy Cart</button>
+		</div>
+	</div>
+
+	<!-- nav -->
+	<nav>
+		<div><div id="hamburger"><img src="../images/black-burger.png"></div></div>
+		<div style="flex:2"><h3>R O L E X W A T C H E S</h3></div>
+		<div class="cart-logo"><img src="../images/watches-page/cart.png"></div>
+	</nav>
+
+	<!-- searchbar-->
+	<div id="searchbar">
+		<input type="search" placeholder=" Search Your Items here">
+		<h6>Price</h6>
+		<label>
+			<input name="min" type="number" placeholder=" Min"> <input name="max" type="number" placeholder=" Max">
+		</label>
+		<br>
+		<button>Search</button>
+	</div>
+
+	<!-- products showcase -->
+	<div id="products"></div>
+
+	<!-- bottom  -->
+	<div id="bottom">
+		<h6>&#xA9; Rolex Watches 2019</h6>
+	</div>
+	</div>
+
+<script src='../scripts/watches.js'></script>
+</body>
+</html>
